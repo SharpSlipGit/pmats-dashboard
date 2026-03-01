@@ -1,0 +1,10 @@
+# Never commit secrets
+.streamlit/secrets.toml
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+
+# Database (local only)
+*.db
